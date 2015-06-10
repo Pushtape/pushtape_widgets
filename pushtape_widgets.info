@@ -2,7 +2,6 @@ name = Pushtape Widgets
 description = Provides the structure for creating and managing widgets
 core = 7.x
 package = Pushtape
-version = 7.x-1.0-panels
 project = pushtape_widgets
 dependencies[] = better_formats
 dependencies[] = ctools
@@ -23,3 +22,7 @@ features[user_permission][] = create fieldable widgets
 features[user_permission][] = delete fieldable widgets
 features[user_permission][] = edit fieldable widgets
 features[variable][] = field_bundle_settings_fieldable_panels_pane__widgets
+
+version = "7.x-1.0-beta22"
+core = "7.x"
+project = "pushtape_widgets"
